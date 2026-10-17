@@ -2,8 +2,8 @@
    Path sengaja relatif supaya tetap benar saat app di-host di subfolder
    (mis. GitHub Pages /priority-matrix/). */
 
-const CACHE = 'pm-shell-v2'
-const SHELL = ['./', './index.html', './manifest.webmanifest', './icon.svg']
+const CACHE = 'pm-shell-v3'
+const SHELL = ['./', './index.html', './manifest.webmanifest', './icon.svg', './logo.svg']
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
